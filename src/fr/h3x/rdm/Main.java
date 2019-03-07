@@ -16,7 +16,7 @@ public class Main extends JavaPlugin implements Listener {
 
     public void onEnable() {
         setupEconomy();
-        new EventRunnable(this).runTaskTimer(this, 150, 150);
+        new EventRunnable(this).runTaskTimer(this, 36000, 36000);
         Bukkit.getServer().getPluginManager().registerEvents(this, this);
     }
 
